@@ -4,11 +4,11 @@ operator = input("Choose the operation (+, -, *, /): ")
 
 match operator:
     case "+":
-        print("The result is" + str(num1+num2))
+        print("The result is " + str(num1+num2))
     case "-":
-        print("The result is" + str(num1 - num2))
+        print("The result is " + str(num1 - num2))
     case "*":
-        print("The result is" + str(num1 * num2))
+        print("The result is " + str(num1 * num2))
     case "/":
         if num2 == 0:
             print("Cannot divide by zero.")
