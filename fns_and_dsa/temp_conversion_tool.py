@@ -16,7 +16,7 @@ while True:
         temperature = int(temperature)
         break
     except:
-        print("Enter a numeric temperature value.")
+        print("Invalid temperature. Please enter a numeric value.")
 temp_scale = input("Is this temperature in Celsius or Fahrenheit? (C/F): ").strip().lower()
 if temp_scale == "c":
     result = convert_to_fahrenheit(temperature)
