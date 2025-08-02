@@ -27,4 +27,3 @@ class TestSimpleCalculator(unittest.TestCase):
         self.assertEqual(self.calc.divide(4, 2), 2)
         self.assertEqual(self.calc.divide(10, -2), -5)
         self.assertEqual(self.calc.divide(2, 0), None)
-        
