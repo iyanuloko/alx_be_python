@@ -21,5 +21,5 @@ class Circle(Shape):
         super().__init__()
         self.radius = radius
     def area(self):
-        return f"The radius of the circle is: {math.pi * self.radius * self.radius}"
+        return f"The radius of the circle is: {math.pi * self.radius ** 2}"
 
