@@ -14,12 +14,12 @@ class Rectangle(Shape):
         self.length = length
         self.width = width
     def area(self):
-        return f"The area of the rectangle is: {self.length * self.width}"
+        return {self.length * self.width}
 
 class Circle(Shape):
     def __init__(self, radius):
         super().__init__()
         self.radius = radius
     def area(self):
-        return f"The radius of the circle is: {math.pi * self.radius ** 2}"
+        return math.pi * self.radius ** 2
 
